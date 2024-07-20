@@ -17,16 +17,5 @@ play(player, mrugesh, 1000)
 
 
 # Uncomment line below to run unit tests automatically
-# main(module='test_module', exit=False)
+main(module='test_module', exit=False)
 
-print("Testing against quincy...")
-play(player, quincy, 1000, verbose=True)
-
-print("Testing against mrugesh...")
-play(player, mrugesh, 1000, verbose=True)
-
-print("Testing against kris...")
-play(player, kris, 1000, verbose=True)
-
-print("Testing against abbey...")
-play(player, abbey, 1000, verbose=True)
